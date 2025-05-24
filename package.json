@@ -1,0 +1,18 @@
+{
+  "name": "dashboards-vpn",
+  "version": "1.0.0",
+  "description": "Dashboards para VPN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node simple-server.js",
+    "dev": "node simple-server.js",
+    "prod": "PORT=80 node simple-server.js",
+    "express": "node server.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
